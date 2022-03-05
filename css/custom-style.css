@@ -1,0 +1,424 @@
+.logo-db24
+{
+    height: 50px;
+    padding-left: 70px;
+}
+
+@media (max-width: 768px)
+{
+    .logo-db24
+    {
+        padding-left: 0px;
+    }
+    .logo-container
+    {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+h1
+{
+    margin-top: 100px;
+}
+
+.titile-block
+{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+@media (max-width: 768px)
+{
+    .titile-block
+{
+    padding-left: 0px;
+    padding-right: 0px;
+} 
+}
+
+.products-container
+{
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 768px)
+{
+    .products-container
+    {
+        padding-left: 0px;
+        padding-right: 0px;
+    } 
+}
+
+.search-box2
+{
+    margin-left: 10px;
+}
+
+@media (max-width: 768px)
+{
+    .search-box2
+    {
+        margin-left: 0px;
+    } 
+}
+
+.container-db24
+{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.address-db24
+{
+    color:rgba(40, 47, 54, 0.3) !important;
+    font-size: 16px;
+    line-height: 1.063;
+    font-weight: 700; 
+    display: inline-block;
+   
+}
+
+@media (max-width: 768px)
+{
+    .address-db24
+    {
+        margin-bottom: 10px;
+    }
+}
+
+.contact-with-us
+{
+    border: 2px #F90000 solid;
+    padding: 5px;
+    border-radius: 5px;
+    color: #F90000;
+    font-size: 16px;
+    line-height: 1.063;
+    font-weight: 700; 
+
+    
+}
+
+
+
+.contact-with-us:hover
+{
+    color: #F90000;
+    text-decoration: none;
+}
+
+.main-category-list
+{
+    list-style-type: none;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+}
+
+.main-category-list li
+{
+    font-size: 12px;
+    display: inline-block;
+    background-color: rgba(40, 47, 54, 0.04); /*tutaj poprawić */
+    border-radius: 12.5px;
+    padding:5px 10px;
+    margin-bottom: 10px !important;
+}
+
+.main-category-list li a
+{
+    color: #282F36
+}
+
+.main-category-list li a:hover
+{
+    text-decoration: none;
+}
+
+.description-db24
+{
+    font-weight: 400;
+    font-size: 16px;
+    color: #484848;
+}
+
+.add-padding
+{
+    padding-bottom: 30px;
+}
+
+hr
+{
+    margin-bottom: 20px;
+}
+
+.location-icon
+{
+    height: 20px;
+}
+
+.open-information-container
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+.open-information-db24
+{
+    color: #73CF42;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+
+.close-information-db24
+{
+    color: #F90000;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.arrow-down
+{
+    display: inline-block;
+    transform: rotate(270deg);
+}
+
+.hours-open
+{
+    box-shadow: inset 0 0 1px #000000;;
+}
+
+.hours-open-leszno
+{
+    display:none;  
+    position: absolute; 
+    bottom:-160px; 
+    left:30px; 
+    background-color: white;
+    padding: 10px;
+}
+
+.hours-open-krzemieniewo
+{
+    display:none;  
+    position: absolute; 
+    bottom:-150px; 
+    left:30px; 
+    background-color: white;
+}
+
+.btn-db24
+{
+    background-color: #F90000;
+    color: white
+}
+
+.btn-db24:hover
+{
+    color: white;
+    text-decoration: none;
+}
+
+.btn-see-offer
+{
+    font-size: 13.2px;
+    font-weight: 500;
+    padding:  15px;
+    
+}
+
+.offer
+{
+    margin-bottom: 25px;
+}
+
+
+
+.news-image img
+{
+    max-width: 60%;
+    height: auto;
+}
+
+.news-image
+{
+    min-width: 250px;
+    min-height: 320px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.35s ease;
+
+    box-shadow: 0 25px 50px 0;
+    color: rgba(40, 47, 54, 0.08);
+}
+
+.news-image:hover
+{
+    transition: all 0.35s ease;
+    color: rgba(40, 47, 54, 0.18);
+}
+
+@media (max-width: 992px)
+{
+    .news-image
+    {height: 440px;}
+}
+@media (max-width: 768px) {
+    .news-image
+    {height: 600px;
+    max-height: 600px;}
+}
+
+.product-name
+{
+    color: rgba(40, 47, 54, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.143;
+}
+
+.price
+{
+    margin-top: 20px;
+    color: #282F36;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.promotional-price
+{
+    color: #F90000;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 0.9;
+}
+
+
+.btn-center
+{
+    display: flex;
+    justify-content: center;
+}
+
+.order-online-container
+{
+    margin-top: 50px;
+}
+
+.order-online
+{
+    padding: 20px 60px 20px 60px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.bricks-image
+{
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.long-description-db24
+{
+    margin-top: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+@media (max-width: 768px)
+{
+    .long-description-db24
+    {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+.products-in-promotion
+{
+    margin-bottom: 100px;
+}
+
+.copyright
+{
+    font-size: 14px;
+    font-weight: 400;
+    color: #ADADAD;
+}
+
+.privacy-policy-link
+{
+    color: #ADADAD;
+    text-decoration: underline;
+}
+
+.privacy-policy-container
+{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.no-margin
+{
+    margin-top: 0px;
+}
+
+.indentation-list
+{
+    margin-left: 60px !important;
+}
+
+table, td, th 
+{
+    border: 1px solid black;
+}
+  
+table 
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.cookie-bar-info
+{
+    color: white; 
+    background-color:#333333; 
+    width:100%; 
+    position: fixed; 
+    bottom: 0px
+}
+
+.cookie-text
+{
+    padding:20px; 
+    text-align: justify;
+}
+
+.accept-cookie
+{
+    position: absolute; 
+    right:20px; 
+    bottom: 20px; 
+    background-color:white; 
+    color: red; 
+    padding: 5px; 
+    border-radius:10px; 
+    cursor: pointer;
+}
+
+.hide-broadcast
+{
+    display:none;
+}
